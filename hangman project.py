@@ -104,6 +104,7 @@ def hangman(secret_word):
             i=i+1
         if remain_lives<=0:
             print("you ran out of the process,ur the secret word was",secret_word)
+            print("this is added by dorababu")
             play()
             break
 
